@@ -6,7 +6,11 @@ on:
       - 'main'
     paths:
       - 'back-end/**'
-  
+
+  workflow_call:
+  pull_request:
+    paths:
+      - 'back-end/**'
 jobs:
   test:
     runs-on: ubuntu-latest

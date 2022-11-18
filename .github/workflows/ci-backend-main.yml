@@ -20,7 +20,7 @@ jobs:
       - name: test
         working-directory: back-end/
         run: mvn --activate-profiles prod test
-  build:
+  package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

@@ -24,4 +24,4 @@ jobs:
         working-directory: back-end/
         run: railway up --detach --service sgcm_pedro_antonio
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+          RAILWAY_TOKEN: ${{ secrets.PEDRO_TOKEN }}

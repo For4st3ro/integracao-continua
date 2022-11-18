@@ -20,7 +20,6 @@ jobs:
       - name: test
         working-directory: back-end/
         run: mvn --activate-profiles prod test
-
   build:
     runs-on: ubuntu-latest
     steps:
